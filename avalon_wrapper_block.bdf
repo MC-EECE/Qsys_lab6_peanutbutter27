@@ -1,0 +1,266 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 224 248 392 264)
+	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
+	(text "csi_clk" (rect 5 0 62 14)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 208 264 392 280)
+	(text "INPUT" (rect 141 0 182 11)(font "Arial" (font_size 6)))
+	(text "rsi_reset_n" (rect 5 0 95 14)(font "Arial" ))
+	(pt 184 8)
+	(drawing
+		(line (pt 100 12)(pt 125 12))
+		(line (pt 100 4)(pt 125 4))
+		(line (pt 129 8)(pt 184 8))
+		(line (pt 100 12)(pt 100 4))
+		(line (pt 125 4)(pt 129 8))
+		(line (pt 125 12)(pt 129 8))
+	)
+	(text "VCC" (rect 144 7 168 18)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 208 280 392 296)
+	(text "INPUT" (rect 141 0 182 11)(font "Arial" (font_size 6)))
+	(text "avs_s0_read" (rect 5 0 95 14)(font "Arial" ))
+	(pt 184 8)
+	(drawing
+		(line (pt 100 12)(pt 125 12))
+		(line (pt 100 4)(pt 125 4))
+		(line (pt 129 8)(pt 184 8))
+		(line (pt 100 12)(pt 100 4))
+		(line (pt 125 4)(pt 129 8))
+		(line (pt 125 12)(pt 129 8))
+	)
+	(text "VCC" (rect 144 7 168 18)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 192 296 392 312)
+	(text "INPUT" (rect 157 0 198 11)(font "Arial" (font_size 6)))
+	(text "avs_s0_write" (rect 5 0 104 14)(font "Arial" ))
+	(pt 200 8)
+	(drawing
+		(line (pt 116 12)(pt 141 12))
+		(line (pt 116 4)(pt 141 4))
+		(line (pt 145 8)(pt 200 8))
+		(line (pt 116 12)(pt 116 4))
+		(line (pt 141 4)(pt 145 8))
+		(line (pt 141 12)(pt 145 8))
+	)
+	(text "VCC" (rect 160 7 184 18)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 96 312 392 328)
+	(text "INPUT" (rect 253 0 294 11)(font "Arial" (font_size 6)))
+	(text "avs_s0_writedata[n-1..0]" (rect 5 0 203 14)(font "Arial" ))
+	(pt 296 8)
+	(drawing
+		(line (pt 212 12)(pt 237 12))
+		(line (pt 212 4)(pt 237 4))
+		(line (pt 241 8)(pt 296 8))
+		(line (pt 212 12)(pt 212 4))
+		(line (pt 237 4)(pt 241 8))
+		(line (pt 237 12)(pt 241 8))
+	)
+	(text "VCC" (rect 256 7 280 18)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 104 328 392 344)
+	(text "INPUT" (rect 245 0 286 11)(font "Arial" (font_size 6)))
+	(text "avs_s0_byteenable[3..0]" (rect 5 0 194 14)(font "Arial" ))
+	(pt 288 8)
+	(drawing
+		(line (pt 204 12)(pt 229 12))
+		(line (pt 204 4)(pt 229 4))
+		(line (pt 233 8)(pt 288 8))
+		(line (pt 204 12)(pt 204 4))
+		(line (pt 229 4)(pt 233 8))
+		(line (pt 229 12)(pt 233 8))
+	)
+	(text "VCC" (rect 248 7 272 18)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 128 344 392 360)
+	(text "INPUT" (rect 221 0 262 11)(font "Arial" (font_size 6)))
+	(text "avs_s0_address[1..0]" (rect 5 0 170 14)(font "Arial" ))
+	(pt 264 8)
+	(drawing
+		(line (pt 180 12)(pt 205 12))
+		(line (pt 180 4)(pt 205 4))
+		(line (pt 209 8)(pt 264 8))
+		(line (pt 180 12)(pt 180 4))
+		(line (pt 205 4)(pt 209 8))
+		(line (pt 205 12)(pt 209 8))
+	)
+	(text "VCC" (rect 224 7 248 18)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 152 360 392 376)
+	(text "INPUT" (rect 197 0 238 11)(font "Arial" (font_size 6)))
+	(text "avs_s0_chipselect" (rect 5 0 145 14)(font "Arial" ))
+	(pt 240 8)
+	(drawing
+		(line (pt 156 12)(pt 181 12))
+		(line (pt 156 4)(pt 181 4))
+		(line (pt 185 8)(pt 240 8))
+		(line (pt 156 12)(pt 156 4))
+		(line (pt 181 4)(pt 185 8))
+		(line (pt 181 12)(pt 185 8))
+	)
+	(text "VCC" (rect 200 7 224 18)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 688 248 973 264)
+	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
+	(text "avs_s0_readdata[n-1..0]" (rect 90 0 279 14)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 688 264 874 280)
+	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
+	(text "coe_pwm_out" (rect 90 0 180 14)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 392 224 688 400)
+	(text "pwm_wrap" (rect 5 0 71 14)(font "Arial" ))
+	(text "inst" (rect 8 160 41 174)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "csi_clk" (rect 0 0 57 14)(font "Arial" ))
+		(text "csi_clk" (rect 21 27 78 41)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "rsi_reset_n" (rect 0 0 90 14)(font "Arial" ))
+		(text "rsi_reset_n" (rect 21 43 111 57)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "avs_s0_read" (rect 0 0 90 14)(font "Arial" ))
+		(text "avs_s0_read" (rect 21 59 111 73)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "avs_s0_write" (rect 0 0 99 14)(font "Arial" ))
+		(text "avs_s0_write" (rect 21 75 120 89)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "avs_s0_writedata[n-1..0]" (rect 0 0 198 14)(font "Arial" ))
+		(text "avs_s0_writedata[n-1..0]" (rect 21 91 219 105)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "avs_s0_byteenable[3..0]" (rect 0 0 189 14)(font "Arial" ))
+		(text "avs_s0_byteenable[3..0]" (rect 21 107 210 121)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "avs_s0_address[1..0]" (rect 0 0 165 14)(font "Arial" ))
+		(text "avs_s0_address[1..0]" (rect 21 123 186 137)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "avs_s0_chipselect" (rect 0 0 140 14)(font "Arial" ))
+		(text "avs_s0_chipselect" (rect 21 139 161 153)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 296 32)
+		(output)
+		(text "avs_s0_readdata[n-1..0]" (rect 0 0 189 14)(font "Arial" ))
+		(text "avs_s0_readdata[n-1..0]" (rect 115 27 304 41)(font "Arial" ))
+		(line (pt 296 32)(pt 280 32)(line_width 3))
+	)
+	(port
+		(pt 296 48)
+		(output)
+		(text "coe_pwm_out" (rect 0 0 90 14)(font "Arial" ))
+		(text "coe_pwm_out" (rect 199 43 289 57)(font "Arial" ))
+		(line (pt 296 48)(pt 280 48))
+	)
+	(parameter
+		"n"
+		"32"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 280 160))
+	)
+	(annotation_block (parameter)(rect 688 176 984 224))
+)
